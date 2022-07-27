@@ -22,23 +22,23 @@
     IN THE SOFTWARE.
 */
 
-#include "ws_handshake.h"
-#include "sha1.h"
+#include "nanomsg/transports/ws/ws_handshake.h"
+#include "nanomsg/transports/ws/sha1.h"
 
-#include "../../aio/timer.h"
+#include "nanomsg/aio/timer.h"
 
-#include "../../core/sock.h"
+#include "nanomsg/core/sock.h"
 
-#include "../utils/base64.h"
+#include "nanomsg/transports/utils/base64.h"
 
-#include "../../utils/alloc.h"
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/wire.h"
-#include "../../utils/attr.h"
-#include "../../utils/random.h"
-#include "../../utils/strcasestr.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/wire.h"
+#include "nanomsg/utils/attr.h"
+#include "nanomsg/utils/random.h"
+#include "nanomsg/utils/strcasestr.h"
 
 #include <stddef.h>
 #include <string.h>
@@ -53,12 +53,12 @@
 /*        required for the map. Ideally, this map would live in another      */
 /*        abstraction layer; perhaps a "registry" of Scalability Protocols?  */
 /*****************************************************************************/
-#include "../../pair.h"
-#include "../../reqrep.h"
-#include "../../pubsub.h"
-#include "../../survey.h"
-#include "../../pipeline.h"
-#include "../../bus.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/reqrep.h"
+#include "nanomsg/pubsub.h"
+#include "nanomsg/survey.h"
+#include "nanomsg/pipeline.h"
+#include "nanomsg/bus.h"
 
 static const struct nn_ws_sp_map NN_WS_HANDSHAKE_SP_MAP[] = {
     { NN_PAIR,       NN_PAIR,       "pair.sp.nanomsg.org" },

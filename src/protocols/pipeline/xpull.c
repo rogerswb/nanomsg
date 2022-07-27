@@ -21,18 +21,18 @@
     IN THE SOFTWARE.
 */
 
-#include "xpull.h"
+#include "nanomsg/protocols/pipeline/xpull.h"
 
-#include "../../nn.h"
-#include "../../pipeline.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pipeline.h"
 
-#include "../utils/fq.h"
+#include "nanomsg/protocols/utils/fq.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/alloc.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/attr.h"
 
 struct nn_xpull_data {
     struct nn_fq_data fq;

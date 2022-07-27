@@ -21,13 +21,13 @@
     IN THE SOFTWARE.
 */
 
-#include "sipc.h"
+#include "nanomsg/transports/ipc/sipc.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/wire.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/wire.h"
+#include "nanomsg/utils/attr.h"
 
 /*  Types of messages passed via IPC transport. */
 #define NN_SIPC_MSG_NORMAL 1

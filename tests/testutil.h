@@ -25,7 +25,7 @@
 #ifndef TESTUTIL_H_INCLUDED
 #define TESTUTIL_H_INCLUDED
 
-#include "../src/utils/attr.h"
+#include "nanomsg/utils/attr.h"
 #include "../src/utils/err.c"
 #include "../src/utils/sleep.c"
 

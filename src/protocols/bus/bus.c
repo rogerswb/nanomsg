@@ -21,14 +21,14 @@
     IN THE SOFTWARE.
 */
 
-#include "xbus.h"
+#include "nanomsg/protocols/bus/xbus.h"
 
-#include "../../nn.h"
-#include "../../bus.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/bus.h"
 
-#include "../../utils/cont.h"
-#include "../../utils/alloc.h"
-#include "../../utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/err.h"
 
 struct nn_bus {
     struct nn_xbus xbus;

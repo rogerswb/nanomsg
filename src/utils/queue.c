@@ -22,8 +22,8 @@
 
 #include <stddef.h>
 
-#include "queue.h"
-#include "err.h"
+#include "nanomsg/utils/queue.h"
+#include "nanomsg/utils/err.h"
 
 void nn_queue_init (struct nn_queue *self)
 {

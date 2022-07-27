@@ -21,14 +21,14 @@
     IN THE SOFTWARE.
 */
 
-#include "../transport.h"
-#include "../protocol.h"
+#include "nanomsg/transport.h"
+#include "nanomsg/protocol.h"
 
-#include "sock.h"
-#include "ep.h"
+#include "nanomsg/core/sock.h"
+#include "nanomsg/core/ep.h"
 
-#include "../utils/err.h"
-#include "../utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/fast.h"
 
 /*  Internal pipe states. */
 #define NN_PIPEBASE_STATE_IDLE 1

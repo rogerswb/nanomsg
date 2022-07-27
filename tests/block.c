@@ -20,11 +20,11 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pair.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
 
 #include "testutil.h"
-#include "../src/utils/attr.h"
+#include "nanomsg/utils/attr.h"
 #include "../src/utils/thread.c"
 
 /*  This test checks whether blocking on send/recv works as expected. */

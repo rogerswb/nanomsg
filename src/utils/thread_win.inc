@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "err.h"
+#include "nanosmsg/utils/err.h"
 
 static unsigned int __stdcall nn_thread_main_routine (void *arg)
 {

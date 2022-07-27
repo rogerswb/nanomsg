@@ -21,18 +21,18 @@
     IN THE SOFTWARE.
 */
 
-#include "xrespondent.h"
+#include "nanomsg/protocols/survey/xrespondent.h"
 
-#include "../../nn.h"
-#include "../../survey.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/survey.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/alloc.h"
-#include "../../utils/random.h"
-#include "../../utils/wire.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/random.h"
+#include "nanomsg/utils/wire.h"
+#include "nanomsg/utils/attr.h"
 
 /*  Private functions. */
 static void nn_xrespondent_destroy (struct nn_sockbase *self);

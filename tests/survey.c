@@ -21,8 +21,8 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/survey.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/survey.h"
 
 #include "testutil.h"
 

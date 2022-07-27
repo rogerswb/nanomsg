@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "once.h"
+#include "nanomsg/utils/once.h"
 #if NN_HAVE_WINDOWS
 
 /*  This craziness is required because Windows doesn't have the notion of

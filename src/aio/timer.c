@@ -21,12 +21,12 @@
     IN THE SOFTWARE.
 */
 
-#include "timer.h"
+#include "nanomsg/aio/timer.h"
 
-#include "../utils/cont.h"
-#include "../utils/fast.h"
-#include "../utils/err.h"
-#include "../utils/attr.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/attr.h"
 
 /*  Timer state reflects the state as seen by the user thread. It says nothing
     about the state of affairs in the worker thread. */

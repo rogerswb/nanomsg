@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "backoff.h"
+#include "nanomsg/transports/utils/backoff.h"
 
 void nn_backoff_init (struct nn_backoff *self, int src, int minivl, int maxivl,
     struct nn_fsm *owner)

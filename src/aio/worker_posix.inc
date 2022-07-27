@@ -22,13 +22,13 @@
     IN THE SOFTWARE.
 */
 
-#include "ctx.h"
+#include "nanomsg/aio/ctx.h"
 
-#include "../utils/err.h"
-#include "../utils/fast.h"
-#include "../utils/cont.h"
-#include "../utils/attr.h"
-#include "../utils/queue.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/attr.h"
+#include "nanomsg/utils/queue.h"
 
 /*  Private functions. */
 static void nn_worker_routine (void *arg);

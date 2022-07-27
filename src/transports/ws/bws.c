@@ -22,25 +22,25 @@
     IN THE SOFTWARE.
 */
 
-#include "bws.h"
-#include "aws.h"
+#include "nanomsg/transports/ws/bws.h"
+#include "nanomsg/transports/ws/aws.h"
 
-#include "../utils/port.h"
-#include "../utils/iface.h"
+#include "nanomsg/transports/utils/port.h"
+#include "nanomsg/transports/utils/iface.h"
 
-#include "../../aio/fsm.h"
-#include "../../aio/usock.h"
+#include "nanomsg/aio/fsm.h"
+#include "nanomsg/aio/usock.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/alloc.h"
-#include "../../utils/list.h"
-#include "../../utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/list.h"
+#include "nanomsg/utils/fast.h"
 
 #include <string.h>
 
 #if defined NN_HAVE_WINDOWS
-#include "../../utils/win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <unistd.h>
 #include <netinet/in.h>

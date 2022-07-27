@@ -21,7 +21,7 @@
 */
 
 #include <ctype.h>
-#include "strcasecmp.h"
+#include "nanomsg/utils/strcasecmp.h"
 
 int
 nn_strcasecmp(const char *a, const char *b)

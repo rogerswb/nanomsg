@@ -21,10 +21,10 @@
     IN THE SOFTWARE.
 */
 
-#include "xpull.h"
+#include "nanomsg/protocols/pipeline/xpull.h"
 
-#include "../../nn.h"
-#include "../../pipeline.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pipeline.h"
 
 struct nn_socktype nn_pull_socktype = {
     AF_SP,

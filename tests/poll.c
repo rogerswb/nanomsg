@@ -20,16 +20,16 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pair.h"
-#include "../src/inproc.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/inproc.h"
 
 #include "testutil.h"
-#include "../src/utils/attr.h"
+#include "nanomsg/utils/attr.h"
 #include "../src/utils/thread.c"
 
 #if defined NN_HAVE_WINDOWS
-#include "../src/utils/win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <sys/select.h>
 #endif

@@ -20,17 +20,17 @@
     IN THE SOFTWARE.
 */
 
-#include "rep.h"
-#include "xrep.h"
+#include "nanomsg/protocols/reqrep/rep.h"
+#include "nanomsg/protocols/reqrep/xrep.h"
 
-#include "../../nn.h"
-#include "../../reqrep.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/reqrep.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/alloc.h"
-#include "../../utils/chunkref.h"
-#include "../../utils/wire.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/chunkref.h"
+#include "nanomsg/utils/wire.h"
 
 #include <stddef.h>
 #include <string.h>

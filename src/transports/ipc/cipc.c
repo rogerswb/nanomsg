@@ -21,23 +21,23 @@
     IN THE SOFTWARE.
 */
 
-#include "cipc.h"
-#include "sipc.h"
+#include "nanomsg/transports/ipc/cipc.h"
+#include "nanomsg/transports/ipc/sipc.h"
 
-#include "../../aio/fsm.h"
-#include "../../aio/usock.h"
+#include "nanomsg/aio/fsm.h"
+#include "nanomsg/aio/usock.h"
 
-#include "../utils/backoff.h"
+#include "nanomsg/transports/utils/backoff.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/alloc.h"
-#include "../../utils/fast.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/attr.h"
 
 #include <string.h>
 #if defined NN_HAVE_WINDOWS
-#include "../../utils/win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <unistd.h>
 #include <sys/un.h>

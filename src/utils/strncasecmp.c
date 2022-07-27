@@ -21,7 +21,7 @@
 */
 
 #include <ctype.h>
-#include "strncasecmp.h"
+#include "nanomsg/utils/strncasecmp.h"
 
 int
 nn_strncasecmp(const char *a, const char *b, size_t len)

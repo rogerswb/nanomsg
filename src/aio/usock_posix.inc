@@ -22,12 +22,12 @@
     IN THE SOFTWARE.
 */
 
-#include "../utils/alloc.h"
-#include "../utils/closefd.h"
-#include "../utils/cont.h"
-#include "../utils/fast.h"
-#include "../utils/err.h"
-#include "../utils/attr.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/closefd.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/attr.h"
 
 #include <string.h>
 #include <unistd.h>

@@ -20,8 +20,8 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pair.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
 
 #include "../src/utils/thread.c"
 #include "testutil.h"

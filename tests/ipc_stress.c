@@ -21,15 +21,15 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pair.h"
-#include "../src/pubsub.h"
-#include "../src/pipeline.h"
-#include "../src/ipc.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/pubsub.h"
+#include "nanomsg/pipeline.h"
+#include "nanomsg/ipc.h"
 
 #include "testutil.h"
 #include "../src/utils/thread.c"
-#include "../src/utils/atomic.h"
+#include "nanomsg/utils/atomic.h"
 #include "../src/utils/atomic.c"
 
 /*  Stress test the IPC transport. */

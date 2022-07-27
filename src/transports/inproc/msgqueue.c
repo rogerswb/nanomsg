@@ -20,11 +20,11 @@
     IN THE SOFTWARE.
 */
 
-#include "msgqueue.h"
+#include "nanomsg/transports/inproc/msgqueue.h"
 
-#include "../../utils/alloc.h"
-#include "../../utils/fast.h"
-#include "../../utils/err.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
 
 #include <string.h>
 

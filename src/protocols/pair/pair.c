@@ -21,10 +21,10 @@
     IN THE SOFTWARE.
 */
 
-#include "xpair.h"
+#include "nanomsg/protocols/pair/xpair.h"
 
-#include "../../nn.h"
-#include "../../pair.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
 
 struct nn_socktype nn_pair_socktype = {
     AF_SP,

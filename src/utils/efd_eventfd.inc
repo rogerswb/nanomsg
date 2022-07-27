@@ -21,8 +21,8 @@
     IN THE SOFTWARE.
 */
 
-#include "err.h"
-#include "closefd.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/closefd.h"
 
 #include <sys/eventfd.h>
 #include <unistd.h>

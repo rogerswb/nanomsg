@@ -20,9 +20,9 @@
     IN THE SOFTWARE.
 */
 
-#include "../utils/fast.h"
-#include "../utils/err.h"
-#include "../utils/closefd.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/closefd.h"
 
 #include <string.h>
 #include <unistd.h>

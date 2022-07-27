@@ -39,6 +39,11 @@ if (POLICY CMP0042)
     cmake_policy (SET CMP0042 NEW)
 endif ()
 
+
+include_directories("include")
+
+
+
 set (CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 list (FIND CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_LIBDIR}" isSystemDir)
 if ("${isSystemDir}" STREQUAL "-1")
@@ -50,7 +55,7 @@ set (ISSUE_REPORT_MSG "Please consider opening an issue at https://github.com/na
 
 # Determine library versions.
 
-file (READ src/nn.h NN_HDR_STR)
+file (READ include/nanomsg/nn.h NN_HDR_STR)
 string (REGEX REPLACE ".*#define +NN_VERSION_CURRENT +([0-9]+).*" "\\1" NN_VERSION_CURRENT "${NN_HDR_STR}")
 string (REGEX REPLACE ".*#define +NN_VERSION_REVISION +([0-9]+).*" "\\1" NN_VERSION_REVISION "${NN_HDR_STR}")
 string (REGEX REPLACE ".*#define +NN_VERSION_AGE +([0-9]+).*" "\\1" NN_VERSION_AGE "${NN_HDR_STR}")

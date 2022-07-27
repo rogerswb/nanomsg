@@ -22,23 +22,23 @@
     IN THE SOFTWARE.
 */
 
-#include "btcp.h"
-#include "ctcp.h"
+#include "nanomsg/transports/tcp/btcp.h"
+#include "nanomsg/transports/tcp/ctcp.h"
 
-#include "../../tcp.h"
+#include "nanomsg/tcp.h"
 
-#include "../utils/port.h"
-#include "../utils/iface.h"
+#include "nanomsg/transports/utils/port.h"
+#include "nanomsg/transports/utils/iface.h"
 
-#include "../../utils/err.h"
-#include "../../utils/alloc.h"
-#include "../../utils/fast.h"
-#include "../../utils/cont.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/cont.h"
 
 #include <string.h>
 
 #if defined NN_HAVE_WINDOWS
-#include "../../utils/win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <unistd.h>
 #endif

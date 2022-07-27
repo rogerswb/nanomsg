@@ -22,31 +22,31 @@
     IN THE SOFTWARE.
 */
 
-#include "../nn.h"
-#include "../transport.h"
-#include "../protocol.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/transport.h"
+#include "nanomsg/protocol.h"
 
-#include "global.h"
-#include "sock.h"
-#include "ep.h"
+#include "nanomsg/core/global.h"
+#include "nanomsg/core/sock.h"
+#include "nanomsg/core/ep.h"
 
-#include "../aio/pool.h"
-#include "../aio/timer.h"
+#include "nanomsg/aio/pool.h"
+#include "nanomsg/aio/timer.h"
 
-#include "../utils/err.h"
-#include "../utils/alloc.h"
-#include "../utils/mutex.h"
-#include "../utils/condvar.h"
-#include "../utils/once.h"
-#include "../utils/list.h"
-#include "../utils/cont.h"
-#include "../utils/random.h"
-#include "../utils/chunk.h"
-#include "../utils/msg.h"
-#include "../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/mutex.h"
+#include "nanomsg/utils/condvar.h"
+#include "nanomsg/utils/once.h"
+#include "nanomsg/utils/list.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/random.h"
+#include "nanomsg/utils/chunk.h"
+#include "nanomsg/utils/msg.h"
+#include "nanomsg/utils/attr.h"
 
-#include "../pubsub.h"
-#include "../pipeline.h"
+#include "nanomsg/pubsub.h"
+#include "nanomsg/pipeline.h"
 
 #include <stddef.h>
 #include <stdlib.h>
@@ -54,7 +54,7 @@
 #include <time.h>
 
 #if defined NN_HAVE_WINDOWS
-#include "../utils/win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <unistd.h>
 #endif

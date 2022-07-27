@@ -21,17 +21,17 @@
     IN THE SOFTWARE.
 */
 
-#include "xpair.h"
+#include "nanomsg/protocols/pair/xpair.h"
 
-#include "../../nn.h"
-#include "../../pair.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
 
-#include "../utils/excl.h"
+#include "nanomsg/protocols/utils/excl.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/alloc.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/attr.h"
 
 struct nn_xpair {
     struct nn_sockbase sockbase;

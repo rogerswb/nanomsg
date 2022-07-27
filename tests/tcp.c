@@ -22,10 +22,10 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pair.h"
-#include "../src/pubsub.h"
-#include "../src/tcp.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/pubsub.h"
+#include "nanomsg/tcp.h"
 
 #include "testutil.h"
 

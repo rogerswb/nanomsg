@@ -23,12 +23,12 @@
     IN THE SOFTWARE.
 */
 
-#include "ctx.h"
-#include "usock.h"
+#include "nanomsg/aio/ctx.h"
+#include "nanomsg/aio/usock.h"
 
-#include "../utils/err.h"
-#include "../utils/cont.h"
-#include "../utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
 
 #define NN_WORKER_MAX_EVENTS 32
 

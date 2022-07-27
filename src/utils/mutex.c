@@ -21,8 +21,8 @@
     IN THE SOFTWARE.
 */
 
-#include "mutex.h"
-#include "err.h"
+#include "nanomsg/utils/mutex.h"
+#include "nanomsg/utils/err.h"
 
 #include <stdlib.h>
 

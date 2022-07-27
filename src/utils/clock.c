@@ -23,7 +23,7 @@
 */
 
 #if defined NN_HAVE_WINDOWS
-#include "win.h"
+#include "nanomsg/utils/win.h"
 #elif defined NN_HAVE_OSX
 #include <mach/mach_time.h>
 #elif defined NN_HAVE_CLOCK_MONOTONIC || defined NN_HAVE_GETHRTIME
@@ -32,10 +32,10 @@
 #include <sys/time.h>
 #endif
 
-#include "clock.h"
-#include "fast.h"
-#include "err.h"
-#include "attr.h"
+#include "nanomsg/utils/clock.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/attr.h"
 
 uint64_t nn_clock_ms (void)
 {

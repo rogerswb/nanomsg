@@ -23,12 +23,12 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pair.h"
-#include "../src/pipeline.h"
-#include "../src/inproc.h"
-#include "../src/ipc.h"
-#include "../src/tcp.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/pipeline.h"
+#include "nanomsg/inproc.h"
+#include "nanomsg/ipc.h"
+#include "nanomsg/tcp.h"
 #include "testutil.h"
 
 #define SOCKET_ADDRESS_INPROC "inproc://a"

@@ -20,10 +20,10 @@
     IN THE SOFTWARE.
 */
 
-#include "wire.h"
+#include "nanomsg/utils/wire.h"
 
 #if defined NN_HAVE_WINDOWS
-#include "win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <arpa/inet.h>
 #endif

@@ -20,12 +20,12 @@
     IN THE SOFTWARE.
 */
 
-#include "random.h"
-#include "clock.h"
-#include "fast.h"
+#include "nanomsg/utils/random.h"
+#include "nanomsg/utils/clock.h"
+#include "nanomsg/utils/fast.h"
 
 #ifdef NN_HAVE_WINDOWS
-#include "win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <sys/types.h>
 #include <unistd.h>

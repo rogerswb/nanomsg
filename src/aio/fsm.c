@@ -21,11 +21,11 @@
     IN THE SOFTWARE.
 */
 
-#include "fsm.h"
-#include "ctx.h"
+#include "nanomsg/aio/fsm.h"
+#include "nanomsg/aio/ctx.h"
 
-#include "../utils/err.h"
-#include "../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/attr.h"
 
 #include <stddef.h>
 

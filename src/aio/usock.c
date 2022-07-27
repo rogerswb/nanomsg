@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "usock.h"
+#include "nanomsg/aio/usock.h"
 
 #if defined NN_HAVE_WINDOWS
 #include "usock_win.inc"

@@ -23,7 +23,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "strncasecmp.h"
+#include "nanomsg/utils/strncasecmp.h"
 
 const char *
 nn_strcasestr(const char *str, const char *key)

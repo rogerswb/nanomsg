@@ -22,19 +22,19 @@
     IN THE SOFTWARE.
 */
 
-#include "xsub.h"
-#include "trie.h"
+#include "nanomsg/protocols/pubsub/xsub.h"
+#include "nanomsg/protocols/pubsub/trie.h"
 
-#include "../../nn.h"
-#include "../../pubsub.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pubsub.h"
 
-#include "../utils/fq.h"
+#include "nanomsg/protocols/utils/fq.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/alloc.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/attr.h"
 
 struct nn_xsub_data {
     struct nn_fq_data fq;

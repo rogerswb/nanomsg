@@ -20,14 +20,14 @@
     IN THE SOFTWARE.
 */
 
-#include "../nn.h"
+#include "nanomsg/nn.h"
 
 #if defined NN_HAVE_WINDOWS
 
-#include "../utils/win.h"
-#include "../utils/fast.h"
-#include "../utils/sleep.h"
-#include "../utils/err.h"
+#include "nanomsg/utils/win.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/sleep.h"
+#include "nanomsg/utils/err.h"
 
 int nn_poll (struct nn_pollfd *fds, int nfds, int timeout)
 {
@@ -118,9 +118,9 @@ int nn_poll (struct nn_pollfd *fds, int nfds, int timeout)
 
 #else
 
-#include "../utils/alloc.h"
-#include "../utils/fast.h"
-#include "../utils/err.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
 
 #include <poll.h>
 #include <stddef.h>

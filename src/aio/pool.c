@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "pool.h"
+#include "nanomsg/aio/pool.h"
 
 /*  TODO: The dummy implementation of a thread pool. As for now there's only
     one worker thread created. */

@@ -20,11 +20,11 @@
     IN THE SOFTWARE.
 */
 
-#include "excl.h"
+#include "nanomsg/protocols/utils/excl.h"
 
-#include "../../utils/fast.h"
-#include "../../utils/err.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/attr.h"
 
 void nn_excl_init (struct nn_excl *self)
 {

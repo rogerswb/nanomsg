@@ -20,9 +20,9 @@
     IN THE SOFTWARE.
 */
 
-#include "port.h"
+#include "nanomsg/transports/utils/port.h"
 
-#include "../../utils/err.h"
+#include "nanomsg/utils/err.h"
 
 int nn_port_resolve (const char *port, size_t portlen)
 {

@@ -20,9 +20,9 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pair.h"
-#include "../src/tcp.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/tcp.h"
 #include "../src/utils/err.c"
 
 #define MAX_SOCKETS 1000

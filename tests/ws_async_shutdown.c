@@ -21,8 +21,8 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pubsub.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pubsub.h"
 
 #include "testutil.h"
 #include "../src/utils/thread.c"

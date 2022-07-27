@@ -24,8 +24,8 @@
     IN THE SOFTWARE.
 */
 
-#include "err.h"
-#include "fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/fast.h"
 
 #include <string.h>
 #include <stdint.h>

@@ -20,11 +20,11 @@
     IN THE SOFTWARE.
 */
 
-#include "alloc.h"
+#include "nanomsg/utils/alloc.h"
 
 #if defined NN_ALLOC_MONITOR
 
-#include "mutex.h"
+#include "nanomsg/utils/mutex.h"
 
 #include <stdlib.h>
 #include <stddef.h>

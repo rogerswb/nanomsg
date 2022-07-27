@@ -20,11 +20,11 @@
     IN THE SOFTWARE.
 */
 
-#include "ctx.h"
+#include "nanomsg/aio/ctx.h"
 
-#include "../utils/err.h"
-#include "../utils/cont.h"
-#include "../utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
 
 void nn_ctx_init (struct nn_ctx *self, struct nn_pool *pool,
     nn_ctx_onleave onleave)

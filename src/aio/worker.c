@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "worker.h"
+#include "nanomsg/aio/worker.h"
 
 #if defined NN_HAVE_WINDOWS
 #include "worker_win.inc"

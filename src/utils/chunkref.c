@@ -20,8 +20,8 @@
     IN THE SOFTWARE.
 */
 
-#include "chunkref.h"
-#include "err.h"
+#include "nanomsg/utils/chunkref.h"
+#include "nanomsg/utils/err.h"
 
 #include <string.h>
 

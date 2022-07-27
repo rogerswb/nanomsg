@@ -22,15 +22,15 @@
     IN THE SOFTWARE.
 */
 
-#include "../transport.h"
+#include "nanomsg/transport.h"
 
-#include "ep.h"
-#include "sock.h"
+#include "nanomsg/core/ep.h"
+#include "nanomsg/core/sock.h"
 
-#include "../utils/err.h"
-#include "../utils/cont.h"
-#include "../utils/fast.h"
-#include "../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/attr.h"
 
 #include <string.h>
 

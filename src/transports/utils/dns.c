@@ -20,9 +20,9 @@
     IN THE SOFTWARE.
 */
 
-#include "dns.h"
+#include "nanomsg/transports/utils/dns.h"
 
-#include "../../utils/err.h"
+#include "nanomsg/utils/err.h"
 
 #include <string.h>
 

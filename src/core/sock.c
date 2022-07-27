@@ -23,19 +23,19 @@
     IN THE SOFTWARE.
 */
 
-#include "../protocol.h"
-#include "../transport.h"
+#include "nanomsg/protocol.h"
+#include "nanomsg/transport.h"
 
-#include "sock.h"
-#include "global.h"
-#include "ep.h"
+#include "nanomsg/core/sock.h"
+#include "nanomsg/core/global.h"
+#include "nanomsg/core/ep.h"
 
-#include "../utils/err.h"
-#include "../utils/cont.h"
-#include "../utils/clock.h"
-#include "../utils/fast.h"
-#include "../utils/alloc.h"
-#include "../utils/msg.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/clock.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/msg.h"
 
 #include <limits.h>
 

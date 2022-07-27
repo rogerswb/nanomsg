@@ -21,10 +21,10 @@
     IN THE SOFTWARE.
 */
 
-#include "xpush.h"
+#include "nanomsg/protocols/pipeline/xpush.h"
 
-#include "../../nn.h"
-#include "../../pipeline.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pipeline.h"
 
 struct nn_socktype nn_push_socktype = {
     AF_SP,

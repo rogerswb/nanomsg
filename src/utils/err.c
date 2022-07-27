@@ -21,10 +21,10 @@
     IN THE SOFTWARE.
 */
 
-#include "err.h"
+#include "nanomsg/utils/err.h"
 
 #ifdef NN_HAVE_WINDOWS
-#include "win.h"
+#include "nanomsg/utils/win.h"
 #endif
 
 #ifdef NN_HAVE_BACKTRACE

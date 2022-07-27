@@ -20,9 +20,9 @@
     IN THE SOFTWARE.
 */
 
-#include "atomic.h"
-#include "err.h"
-#include "attr.h"
+#include "nanomsg/utils/atomic.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/attr.h"
 
 void nn_atomic_init (struct nn_atomic *self, uint32_t n)
 {

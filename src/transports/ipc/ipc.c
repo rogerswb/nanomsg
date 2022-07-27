@@ -22,19 +22,19 @@
     IN THE SOFTWARE.
 */
 
-#include "bipc.h"
-#include "cipc.h"
+#include "nanomsg/transports/ipc/bipc.h"
+#include "nanomsg/transports/ipc/cipc.h"
 
-#include "../../ipc.h"
+#include "nanomsg/ipc.h"
 
-#include "../../utils/err.h"
-#include "../../utils/alloc.h"
-#include "../../utils/fast.h"
-#include "../../utils/cont.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/cont.h"
 
 #include <string.h>
 #if defined NN_HAVE_WINDOWS
-#include "../../utils/win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <sys/socket.h>
 #include <sys/un.h>

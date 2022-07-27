@@ -21,14 +21,14 @@
     IN THE SOFTWARE.
 */
 
-#include "../nn.h"
+#include "nanomsg/nn.h"
 
-#include "../utils/err.h"
-#include "../utils/fast.h"
-#include "../utils/fd.h"
-#include "../utils/attr.h"
-#include "../utils/thread.h"
-#include "device.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/fd.h"
+#include "nanomsg/utils/attr.h"
+#include "nanomsg/utils/thread.h"
+#include "nanomsg/devices/device.h"
 
 #include <string.h>
 

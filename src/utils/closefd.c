@@ -23,9 +23,9 @@
 
 #if !defined NN_HAVE_WINDOWS
 
-#include "closefd.h"
-#include "fast.h"
-#include "err.h"
+#include "nanomsg/utils/closefd.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
 
 #include <unistd.h>
 

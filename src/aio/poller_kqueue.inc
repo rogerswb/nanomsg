@@ -20,10 +20,10 @@
     IN THE SOFTWARE.
 */
 
-#include "../utils/attr.h"
-#include "../utils/fast.h"
-#include "../utils/err.h"
-#include "../utils/closefd.h"
+#include "nanomsg/utils/attr.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/closefd.h"
 
 #include <unistd.h>
 

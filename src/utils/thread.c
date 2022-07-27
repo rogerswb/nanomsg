@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "thread.h"
+#include "nanomsg/utils/thread.h"
 
 #ifdef NN_HAVE_WINDOWS
 #include "thread_win.inc"

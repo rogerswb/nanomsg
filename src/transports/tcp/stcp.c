@@ -21,13 +21,13 @@
     IN THE SOFTWARE.
 */
 
-#include "stcp.h"
+#include "nanomsg/transports/tcp/stcp.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/wire.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/wire.h"
+#include "nanomsg/utils/attr.h"
 
 /*  States of the object as a whole. */
 #define NN_STCP_STATE_IDLE 1

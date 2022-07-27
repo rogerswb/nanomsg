@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/utils/cont.h"
+#include "nanomsg/utils/cont.h"
 
 #include "../src/utils/err.c"
 #include "../src/utils/list.c"

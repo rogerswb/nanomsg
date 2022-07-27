@@ -21,9 +21,9 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/tcp.h"
-#include "../src/reqrep.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/tcp.h"
+#include "nanomsg/reqrep.h"
 
 #include "testutil.h"
 

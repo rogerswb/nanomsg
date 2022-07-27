@@ -21,13 +21,13 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pubsub.h"
-#include "../src/pipeline.h"
-#include "../src/bus.h"
-#include "../src/pair.h"
-#include "../src/survey.h"
-#include "../src/reqrep.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pubsub.h"
+#include "nanomsg/pipeline.h"
+#include "nanomsg/bus.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/survey.h"
+#include "nanomsg/reqrep.h"
 
 #include "options.h"
 #include "../src/utils/sleep.c"

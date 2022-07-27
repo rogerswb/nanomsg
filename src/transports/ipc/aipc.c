@@ -21,11 +21,11 @@
     IN THE SOFTWARE.
 */
 
-#include "aipc.h"
+#include "nanomsg/transports/ipc/aipc.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/attr.h"
 
 #define NN_AIPC_STATE_IDLE 1
 #define NN_AIPC_STATE_ACCEPTING 2

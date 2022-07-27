@@ -21,18 +21,18 @@
     IN THE SOFTWARE.
 */
 
-#include "xpush.h"
+#include "nanomsg/protocols/pipeline/xpush.h"
 
-#include "../../nn.h"
-#include "../../pipeline.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pipeline.h"
 
-#include "../utils/lb.h"
+#include "nanomsg/protocols/utils/lb.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/alloc.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/attr.h"
 
 struct nn_xpush_data {
     struct nn_lb_data lb;

@@ -22,11 +22,11 @@
     IN THE SOFTWARE.
 */
 
-#include "ins.h"
-#include "binproc.h"
-#include "cinproc.h"
+#include "nanomsg/transports/inproc/ins.h"
+#include "nanomsg/transports/inproc/binproc.h"
+#include "nanomsg/transports/inproc/cinproc.h"
 
-#include "../../inproc.h"
+#include "nanomsg/inproc.h"
 
 #include <string.h>
 

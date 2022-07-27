@@ -22,12 +22,12 @@
     IN THE SOFTWARE.
 */
 
-#include "chunk.h"
-#include "atomic.h"
-#include "alloc.h"
-#include "fast.h"
-#include "wire.h"
-#include "err.h"
+#include "nanomsg/utils/chunk.h"
+#include "nanomsg/utils/atomic.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/wire.h"
+#include "nanomsg/utils/err.h"
 
 #include <string.h>
 

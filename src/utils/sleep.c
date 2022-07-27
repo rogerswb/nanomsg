@@ -20,12 +20,12 @@
     IN THE SOFTWARE.
 */
 
-#include "sleep.h"
-#include "err.h"
+#include "nanomsg/utils/sleep.h"
+#include "nanomsg/utils/err.h"
 
 #ifdef NN_HAVE_WINDOWS
 
-#include "win.h"
+#include "nanomsg/utils/win.h"
 
 void nn_sleep (int milliseconds)
 {

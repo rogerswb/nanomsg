@@ -22,12 +22,12 @@
     IN THE SOFTWARE.
 */
 
-#include "aws.h"
+#include "nanomsg/transports/ws/aws.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/attr.h"
-#include "../../ws.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/attr.h"
+#include "nanomsg/ws.h"
 
 #define NN_AWS_STATE_IDLE 1
 #define NN_AWS_STATE_ACCEPTING 2

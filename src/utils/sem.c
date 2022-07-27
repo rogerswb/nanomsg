@@ -20,9 +20,9 @@
     IN THE SOFTWARE.
 */
 
-#include "sem.h"
-#include "err.h"
-#include "fast.h"
+#include "nanomsg/utils/sem.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/fast.h"
 
 
 #if defined NN_HAVE_WINDOWS

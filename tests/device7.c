@@ -23,13 +23,13 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/reqrep.h"
-#include "../src/tcp.h"
-#include "../src/inproc.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/reqrep.h"
+#include "nanomsg/tcp.h"
+#include "nanomsg/inproc.h"
 
 #include "testutil.h"
-#include "../src/utils/attr.h"
+#include "nanomsg/utils/attr.h"
 #include "../src/utils/thread.c"
 
 #define SOCKET_ADDRESS_I "inproc://nobody"

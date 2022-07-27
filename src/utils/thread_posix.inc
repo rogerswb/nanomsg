@@ -21,7 +21,7 @@
     IN THE SOFTWARE.
 */
 
-#include "err.h"
+#include "nanomsg/utils/err.h"
 
 #include <signal.h>
 

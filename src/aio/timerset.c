@@ -20,12 +20,12 @@
     IN THE SOFTWARE.
 */
 
-#include "timerset.h"
+#include "nanomsg/aio/timerset.h"
 
-#include "../utils/fast.h"
-#include "../utils/cont.h"
-#include "../utils/clock.h"
-#include "../utils/err.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/clock.h"
+#include "nanomsg/utils/err.h"
 
 void nn_timerset_init (struct nn_timerset *self)
 {

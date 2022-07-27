@@ -20,9 +20,9 @@
     IN THE SOFTWARE.
 */
 
-#include "mutex.h"
-#include "condvar.h"
-#include "err.h"
+#include "nanomsg/utils/mutex.h"
+#include "nanomsg/utils/condvar.h"
+#include "nanomsg/utils/err.h"
 
 #if NN_HAVE_WINDOWS
 

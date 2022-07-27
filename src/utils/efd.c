@@ -24,8 +24,8 @@
     IN THE SOFTWARE.
 */
 
-#include "efd.h"
-#include "clock.h"
+#include "nanomsg/utils/efd.h"
+#include "nanomsg/utils/clock.h"
 
 #if defined NN_USE_EVENTFD
     #include "efd_eventfd.inc"

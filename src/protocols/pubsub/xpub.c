@@ -21,18 +21,18 @@
     IN THE SOFTWARE.
 */
 
-#include "xpub.h"
+#include "nanomsg/protocols/pubsub/xpub.h"
 
-#include "../../nn.h"
-#include "../../pubsub.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pubsub.h"
 
-#include "../utils/dist.h"
+#include "nanomsg/protocols/utils/dist.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/alloc.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/attr.h"
 
 #include <stddef.h>
 

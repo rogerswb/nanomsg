@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "sha1.h"
+#include "nanomsg/transports/ws/sha1.h"
 
 #define sha1_rol32(num,bits) ((num << bits) | (num >> (32 - bits)))
 

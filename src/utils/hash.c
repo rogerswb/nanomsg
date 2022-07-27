@@ -20,11 +20,11 @@
     IN THE SOFTWARE.
 */
 
-#include "hash.h"
-#include "fast.h"
-#include "alloc.h"
-#include "cont.h"
-#include "err.h"
+#include "nanomsg/utils/hash.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/err.h"
 
 #define NN_HASH_INITIAL_SLOTS 32
 

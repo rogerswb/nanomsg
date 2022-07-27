@@ -20,13 +20,13 @@
     IN THE SOFTWARE.
 */
 
-#include "literal.h"
+#include "nanomsg/transports/utils/literal.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/attr.h"
 
-#include "../../aio/ctx.h"
+#include "nanomsg/aio/ctx.h"
 
 #include <signal.h>
 

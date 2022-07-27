@@ -20,10 +20,10 @@
     IN THE SOFTWARE.
 */
 
-#include "xpub.h"
+#include "nanomsg/protocols/pubsub/xpub.h"
 
-#include "../../nn.h"
-#include "../../pubsub.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pubsub.h"
 
 struct nn_socktype nn_pub_socktype = {
     AF_SP,

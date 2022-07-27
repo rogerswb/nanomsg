@@ -24,10 +24,10 @@
 #include <assert.h>
 #include <stdio.h>
 
-#include "trie.h"
-#include "../../utils/alloc.h"
-#include "../../utils/fast.h"
-#include "../../utils/err.h"
+#include "nanomsg/protocols/pubsub/trie.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
 
 /*  Double check that the size of node structure is as small as
     we believe it to be. */

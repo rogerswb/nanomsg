@@ -22,14 +22,14 @@
     IN THE SOFTWARE.
 */
 
-#include "cinproc.h"
-#include "binproc.h"
-#include "ins.h"
+#include "nanomsg/transports/inproc/cinproc.h"
+#include "nanomsg/transports/inproc/binproc.h"
+#include "nanomsg/transports/inproc/ins.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/alloc.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/attr.h"
 
 #include <stddef.h>
 

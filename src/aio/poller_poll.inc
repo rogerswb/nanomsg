@@ -20,8 +20,8 @@
     IN THE SOFTWARE.
 */
 
-#include "../utils/alloc.h"
-#include "../utils/err.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/err.h"
 
 #define NN_POLLER_GRANULARITY 16
 

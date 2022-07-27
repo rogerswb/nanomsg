@@ -20,12 +20,12 @@
     IN THE SOFTWARE.
 */
 
-#include "../protocol.h"
+#include "nanomsg/protocol.h"
 
-#include "sock.h"
+#include "nanomsg/core/sock.h"
 
-#include "../utils/err.h"
-#include "../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/attr.h"
 
 void nn_sockbase_init (struct nn_sockbase *self,
     const struct nn_sockbase_vfptr *vfptr, void *hint)

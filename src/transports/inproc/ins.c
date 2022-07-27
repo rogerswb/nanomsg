@@ -21,14 +21,14 @@
     IN THE SOFTWARE.
 */
 
-#include "ins.h"
+#include "nanomsg/transports/inproc/ins.h"
 
-#include "../../utils/mutex.h"
-#include "../../utils/alloc.h"
-#include "../../utils/list.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/err.h"
+#include "nanomsg/utils/mutex.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/list.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/err.h"
 
 struct nn_ins {
 

@@ -21,9 +21,9 @@
     IN THE SOFTWARE.
 */
 
-#include "err.h"
-#include "fast.h"
-#include "closefd.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/closefd.h"
 
 #include <sys/types.h>
 #include <sys/socket.h>

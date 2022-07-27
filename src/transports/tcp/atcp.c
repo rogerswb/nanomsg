@@ -21,16 +21,16 @@
     IN THE SOFTWARE.
 */
 
-#include "atcp.h"
+#include "nanomsg/transports/tcp/atcp.h"
 
-#include "../../tcp.h"
+#include "nanomsg/tcp.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/attr.h"
 
 #if defined NN_HAVE_WINDOWS
-#include "../../utils/win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <netinet/in.h>
 #include <netinet/tcp.h>

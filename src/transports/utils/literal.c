@@ -21,10 +21,10 @@
     IN THE SOFTWARE.
 */
 
-#include "literal.h"
+#include "nanomsg/transports/utils/literal.h"
 
-#include "../../utils/err.h"
-#include "../../utils/fast.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/fast.h"
 
 #include <string.h>
 

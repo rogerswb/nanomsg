@@ -21,11 +21,11 @@
     IN THE SOFTWARE.
 */
 
-#include "iface.h"
-#include "literal.h"
+#include "nanomsg/transports/utils/iface.h"
+#include "nanomsg/transports/utils/literal.h"
 
-#include "../../utils/err.h"
-#include "../../utils/closefd.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/closefd.h"
 
 #include <string.h>
 

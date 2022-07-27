@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "base64.h"
+#include "nanomsg/transports/utils/base64.h"
 
 #include <ctype.h>
 

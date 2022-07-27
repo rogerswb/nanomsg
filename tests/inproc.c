@@ -19,12 +19,12 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/bus.h"
-#include "../src/pair.h"
-#include "../src/pubsub.h"
-#include "../src/reqrep.h"
-#include "../src/inproc.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/bus.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/pubsub.h"
+#include "nanomsg/reqrep.h"
+#include "nanomsg/inproc.h"
 
 #include "testutil.h"
 

@@ -20,13 +20,13 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/pair.h"
-#include "../src/pubsub.h"
-#include "../src/inproc.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/pubsub.h"
+#include "nanomsg/inproc.h"
 
 #include "testutil.h"
-#include "../src/utils/attr.h"
+#include "nanomsg/utils/attr.h"
 #include "../src/utils/thread.c"
 
 /*  Stress test the inproc transport. */

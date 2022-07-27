@@ -23,12 +23,12 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/reqrep.h"
-#include "../src/tcp.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/reqrep.h"
+#include "nanomsg/tcp.h"
 
 #include "testutil.h"
-#include "../src/utils/attr.h"
+#include "nanomsg/utils/attr.h"
 #include "../src/utils/thread.c"
 
 static char socket_address_a[128];

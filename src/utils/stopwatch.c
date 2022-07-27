@@ -20,11 +20,11 @@
     IN THE SOFTWARE.
 */
 
-#include "stopwatch.h"
+#include "nanomsg/utils/stopwatch.h"
 
 #if defined NN_HAVE_WINDOWS
 
-#include "win.h"
+#include "nanomsg/utils/win.h"
 
 void nn_stopwatch_init (struct nn_stopwatch *self)
 {

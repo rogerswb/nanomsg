@@ -22,15 +22,15 @@
     IN THE SOFTWARE.
 */
 
-#include "binproc.h"
-#include "sinproc.h"
-#include "cinproc.h"
-#include "ins.h"
+#include "nanomsg/transports/inproc/binproc.h"
+#include "nanomsg/transports/inproc/sinproc.h"
+#include "nanomsg/transports/inproc/cinproc.h"
+#include "nanomsg/transports/inproc/ins.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/alloc.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/alloc.h"
 
 #define NN_BINPROC_STATE_IDLE 1
 #define NN_BINPROC_STATE_ACTIVE 2

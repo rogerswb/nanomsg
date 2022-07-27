@@ -21,8 +21,8 @@
     IN THE SOFTWARE.
 */
 
-#include "task.h"
-#include "../../utils/attr.h"
+#include "nanomsg/protocols/reqrep/task.h"
+#include "nanomsg/utils/attr.h"
 
 void nn_task_init (struct nn_task *self, uint32_t id)
 {

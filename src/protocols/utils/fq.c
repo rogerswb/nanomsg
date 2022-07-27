@@ -20,10 +20,10 @@
     IN THE SOFTWARE.
 */
 
-#include "fq.h"
+#include "nanomsg/protocols/utils/fq.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
 
 #include <stddef.h>
 

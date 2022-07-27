@@ -23,19 +23,19 @@
     IN THE SOFTWARE.
 */
 
-#include "../nn.h"
+#include "nanomsg/nn.h"
 
-#include "../inproc.h"
-#include "../ipc.h"
-#include "../tcp.h"
+#include "nanomsg/inproc.h"
+#include "nanomsg/ipc.h"
+#include "nanomsg/tcp.h"
 
-#include "../pair.h"
-#include "../pubsub.h"
-#include "../reqrep.h"
-#include "../pipeline.h"
-#include "../survey.h"
-#include "../bus.h"
-#include "../ws.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/pubsub.h"
+#include "nanomsg/reqrep.h"
+#include "nanomsg/pipeline.h"
+#include "nanomsg/survey.h"
+#include "nanomsg/bus.h"
+#include "nanomsg/ws.h"
 
 #include <string.h>
 

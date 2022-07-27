@@ -23,11 +23,11 @@
     IN THE SOFTWARE.
 */
 
-#include "worker.h"
+#include "nanomsg/aio/worker.h"
 
-#include "../utils/err.h"
-#include "../utils/cont.h"
-#include "../utils/alloc.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/alloc.h"
 
 #include <stddef.h>
 #include <string.h>

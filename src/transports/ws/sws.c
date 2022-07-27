@@ -22,17 +22,17 @@
     IN THE SOFTWARE.
 */
 
-#include "sws.h"
-#include "../../ws.h"
-#include "../../nn.h"
+#include "nanomsg/transports/ws/sws.h"
+#include "nanomsg/ws.h"
+#include "nanomsg/nn.h"
 
-#include "../../utils/alloc.h"
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/wire.h"
-#include "../../utils/attr.h"
-#include "../../utils/random.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/wire.h"
+#include "nanomsg/utils/attr.h"
+#include "nanomsg/utils/random.h"
 
 /*  States of the object as a whole. */
 #define NN_SWS_STATE_IDLE 1

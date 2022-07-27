@@ -21,14 +21,14 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/bus.h"
-#include "../src/pair.h"
-#include "../src/pipeline.h"
-#include "../src/inproc.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/bus.h"
+#include "nanomsg/pair.h"
+#include "nanomsg/pipeline.h"
+#include "nanomsg/inproc.h"
 
 #include "testutil.h"
-#include "../src/utils/attr.h"
+#include "nanomsg/utils/attr.h"
 #include "../src/utils/thread.c"
 
 #define SOCKET_ADDRESS_A "inproc://a"

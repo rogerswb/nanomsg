@@ -21,11 +21,11 @@
     IN THE SOFTWARE.
 */
 
-#include "sinproc.h"
+#include "nanomsg/transports/inproc/sinproc.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/attr.h"
 
 #include <stddef.h>
 

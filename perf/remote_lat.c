@@ -21,9 +21,9 @@
     IN THE SOFTWARE.
 */
 
-#include "../src/nn.h"
-#include "../src/tcp.h"
-#include "../src/pair.h"
+#include "nanomsg/nn.h"
+#include "nanomsg/tcp.h"
+#include "nanomsg/pair.h"
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -21,15 +21,15 @@
     IN THE SOFTWARE.
 */
 
-#include "streamhdr.h"
+#include "nanomsg/transports/utils/streamhdr.h"
 
-#include "../../aio/timer.h"
+#include "nanomsg/aio/timer.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/wire.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/wire.h"
+#include "nanomsg/utils/attr.h"
 
 #include <stddef.h>
 #include <string.h>

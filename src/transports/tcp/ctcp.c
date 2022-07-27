@@ -21,30 +21,30 @@
     IN THE SOFTWARE.
 */
 
-#include "ctcp.h"
-#include "stcp.h"
+#include "nanomsg/transports/tcp/ctcp.h"
+#include "nanomsg/transports/tcp/stcp.h"
 
-#include "../../tcp.h"
+#include "nanomsg/tcp.h"
 
-#include "../utils/dns.h"
-#include "../utils/port.h"
-#include "../utils/iface.h"
-#include "../utils/backoff.h"
-#include "../utils/literal.h"
+#include "nanomsg/transports/utils/dns.h"
+#include "nanomsg/transports/utils/port.h"
+#include "nanomsg/transports/utils/iface.h"
+#include "nanomsg/transports/utils/backoff.h"
+#include "nanomsg/transports/utils/literal.h"
 
-#include "../../aio/fsm.h"
-#include "../../aio/usock.h"
+#include "nanomsg/aio/fsm.h"
+#include "nanomsg/aio/usock.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/alloc.h"
-#include "../../utils/fast.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/alloc.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/attr.h"
 
 #include <string.h>
 
 #if defined NN_HAVE_WINDOWS
-#include "../../utils/win.h"
+#include "nanomsg/utils/win.h"
 #else
 #include <unistd.h>
 #include <netinet/in.h>

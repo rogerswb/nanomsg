@@ -22,9 +22,9 @@
 
 #include <stddef.h>
 
-#include "list.h"
-#include "err.h"
-#include "attr.h"
+#include "nanomsg/utils/list.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/attr.h"
 
 void nn_list_init (struct nn_list *self)
 {

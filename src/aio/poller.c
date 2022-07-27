@@ -21,7 +21,7 @@
     IN THE SOFTWARE.
 */
 
-#include "poller.h"
+#include "nanomsg/aio/poller.h"
 
 #if defined NN_USE_EPOLL
     #include "poller_epoll.inc"

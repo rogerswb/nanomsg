@@ -20,12 +20,12 @@
     IN THE SOFTWARE.
 */
 
-#include "dist.h"
+#include "nanomsg/protocols/utils/dist.h"
 
-#include "../../utils/err.h"
-#include "../../utils/cont.h"
-#include "../../utils/fast.h"
-#include "../../utils/attr.h"
+#include "nanomsg/utils/err.h"
+#include "nanomsg/utils/cont.h"
+#include "nanomsg/utils/fast.h"
+#include "nanomsg/utils/attr.h"
 
 #include <stddef.h>
 
